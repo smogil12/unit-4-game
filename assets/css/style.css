@@ -1,0 +1,117 @@
+* {
+
+    background-color:lightblue;
+    
+}
+
+.my-col {
+
+    background-color: orange;
+    margin-top: 10px;
+    height: 60px;
+    margin-left: 10px;
+    color: white;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.inst-col {
+    background-color: beige;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.score-col {
+    background-color: rgb(95, 163, 95);
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 210px;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.user-col {
+    margin-top: 10px;
+    background-color: rgb(108, 226, 226);
+    margin-left: 10px;
+   
+}
+
+#wins {
+    margin-top: 15px;
+    background-color: rgb(108, 226, 226);
+    margin-left: 10px;
+    display: flex;
+        justify-content: left;
+        align-items: center;
+
+}
+
+#losses { 
+    margin-top: 15px;
+    background-color: rgb(108, 226, 226);
+    margin-left: 10px;
+    display: flex;
+        justify-content: left;
+        align-items: center;  
+}
+
+#styledImage {
+    width: 100%;
+object-fit: cover;
+
+
+
+}
+
+#styledImage2 {
+
+    width: 100%;
+    object-fit: cover;
+}
+
+#styledImage3 {
+
+    width: 100%;
+    object-fit: cover;
+}
+
+#styledImage4 {
+
+    width: 100%;
+    object-fit: cover;
+}
+
+.score-row {
+
+    margin-top: 10px;
+    
+}
+
+.ts-col {
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgb(50, 128, 95);
+    color: white;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.final-col {
+
+    background-color: rgb(50, 128, 95);
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 130px;
+    margin-bottom: 30px;
+    color: white;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+}
