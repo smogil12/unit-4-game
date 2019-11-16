@@ -15,18 +15,18 @@ $(document).ready(function(){
     function win () {
         wins = wins +1;
         $("#wins").text(wins);
-        alert ("You Win! Click on a Gem to Play Again");
+        alert ("You Win! Click on a gem to play again");
     }
     
     function lose () {
         losses = losses +1;
         $("#losses").text(losses);
-        alert ("You Lose, Try Again by clicking on a Gem");
+        alert ("You Lose, try again by clicking on a gem");
     }
     
     function reset () {
        userResult = 0;
-        compnumber = 19 + Math.floor(Math.random() * 101);
+        compnumber =   19 + Math.floor(Math.random() * 101);
         pinkjewel = 1 + Math.floor(Math.random() * 12);
         bluejewel = 1 + Math.floor(Math.random() * 12);
         redjewel = 1 + Math.floor(Math.random() * 12);
