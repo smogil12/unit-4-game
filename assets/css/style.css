@@ -115,3 +115,14 @@ object-fit: cover;
         align-items: center;
         font-size: 30px;
 }
+
+@media screen and (max-width: 750px) {
+
+    .my-col {
+        
+        font-size: 20px;
+
+
+    }
+
+}
