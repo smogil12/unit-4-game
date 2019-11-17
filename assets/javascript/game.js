@@ -32,7 +32,7 @@ $(document).ready(function(){
         redjewel = 1 + Math.floor(Math.random() * 12);
         greenjewel = 1 + Math.floor(Math.random() * 12);
         console.log (pinkjewel, bluejewel, redjewel, greenjewel);
-       $(".score-col").text(compnumber);
+       $(".score-col").text("Target Score: " + compnumber);
         
     }
 
